@@ -1500,9 +1500,10 @@ textarea:focus {
 }
 
 .logo {
-  padding-top: 40px;
   -webkit-transition: all 0.3s ease 0s;
   transition: all 0.3s ease 0s;
+  padding-top: 12px;
+  padding-bottom: 12px;
 }
 
 .main-menu {
@@ -3113,6 +3114,7 @@ textarea:focus {
 }
 
 .slider-area {
+  margin-top: 7%;
   position: relative;
 }
 .slider-area .nav-style-2 .owl-nav {
@@ -9314,3 +9316,36 @@ h3.cart-page-title {
 }
 
 /*-------- Start My Account Page Wrapper --------*/
+
+/* Ensure logo images are responsive */
+.logo-img {
+  width: 100%;
+  max-width: 85%;
+  height: auto;
+}
+
+/* For mobile devices */
+@media (max-width: 767px) {
+  .logo-img {
+      max-width: 100px;
+  }
+}
+
+/* Sticky header */
+.sticky-bar {
+  position: fixed;
+  top: 0;
+  width: 100%;
+  z-index: 999;
+  background-color: #fff;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  transition: all 0.3s ease-in-out;
+}
+
+.sticky-bar .logo-img {
+  max-width: 85%; /* Adjust size as needed for sticky header */
+}
+
+.header-small-mobile .logo-img {
+  max-width: 100px; /* Adjust size for mobile view */
+}
