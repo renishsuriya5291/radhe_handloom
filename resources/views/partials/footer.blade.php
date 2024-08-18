@@ -24,7 +24,7 @@
                         </div>
                         <div class="col-lg-4 col-md-4 col-12">
                             <div class="copyright text-center pb-20">
-                                <p>Copyright © All Right Reserved</p>
+                                <p>Copyright Radhe Handloom© All Right Reserved</p>
                             </div>
                         </div>
                     </div>
